@@ -3,7 +3,7 @@ import subprocess
 
 import psutil
 
-APP_FOLDER: str = r"C:\Program Files (x86)\Epic Games"
+APP_FOLDER: str = [r"C:\Program Files (x86)\Epic Games"]
 
 # Get network interface details
 interfaces = psutil.net_if_addrs()
@@ -21,8 +21,11 @@ if adapter in interfaces:
 
     if address:
         exes: list[str] = list()
-        for root, dirs, files in os.walk(APP_FOLDER):
-            for f in files:
-                if f.endswith(r".exe"):
-                    exes.append(os.path.join(root, f))
-        
+        for app in APP_FOLDER:
+            for root, dirs, files in os.walk(APP_FOLDER):
+                for f in files:
+                    if f.endswith(r".exe"):
+                        exes.append(os.path.join(root, f))
+            for e in exes:
+                # subprocess.run(["ForceBindIP64.exe", "-i", address, e])
+                subprocess.run(["ForceBindIP64.exe", address, e])
