@@ -1,0 +1,219 @@
+Interface: OpenVPN
+  Address Family: AF_LINK
+  Address: 00-FF-44-D7-DF-31
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 169.254.202.177
+  Netmask: 255.255.0.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::820a:843:b7ce:804c
+  Netmask: None
+  Broadcast: None
+
+Interface: PIA
+  Address Family: AF_LINK
+  Address: 00-FF-4D-3D-FE-1E
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 169.254.143.137
+  Netmask: 255.255.0.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::787b:d2dc:6a78:a572
+  Netmask: None
+  Broadcast: None
+
+Interface: Ethernet
+  Address Family: AF_LINK
+  Address: A8-A1-59-01-0F-41
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 192.168.1.50
+  Netmask: 255.255.255.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::b354:b37:e701:9c63
+  Netmask: None
+  Broadcast: None
+
+Interface: Local Area Connection* 9
+  Address Family: AF_LINK
+  Address: 38-7A-0E-74-EC-31
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 169.254.223.23
+  Netmask: 255.255.0.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::ecf1:3680:cf65:2644
+  Netmask: None
+  Broadcast: None
+
+Interface: Local Area Connection* 10
+  Address Family: AF_LINK
+  Address: 3A-7A-0E-74-EC-30
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 169.254.152.56
+  Netmask: 255.255.0.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::9dac:8634:b017:198c
+  Netmask: None
+  Broadcast: None
+
+Interface: Wi-Fi ax
+  Address Family: AF_LINK
+  Address: 38-7A-0E-74-EC-30
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 192.168.2.154
+  Netmask: 255.255.255.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: 2600:1010:a121:a06f:44b3:bee1:26d6:b719
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: 2600:1010:a121:a06f:80d2:90f6:b956:deeb
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::ce7f:85d8:a4f6:ba30
+  Netmask: None
+  Broadcast: None
+
+Interface: VMware Network Adapter VMnet1
+  Address Family: AF_LINK
+  Address: 00-50-56-C0-00-01
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 192.168.122.1
+  Netmask: 255.255.255.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::349f:86ce:ece6:4b61
+  Netmask: None
+  Broadcast: None
+
+Interface: VMware Network Adapter VMnet8
+  Address Family: AF_LINK
+  Address: 00-50-56-C0-00-08
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 192.168.190.1
+  Netmask: 255.255.255.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::ba8b:b6b3:cc07:6931
+  Netmask: None
+  Broadcast: None
+
+Interface: Bluetooth Network Connection 4
+  Address Family: AF_LINK
+  Address: 38-7A-0E-74-EC-34
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 169.254.35.226
+  Netmask: 255.255.0.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::3811:9ea8:ef6e:2b66
+  Netmask: None
+  Broadcast: None
+
+Interface: vEthernet (Default Switch)
+  Address Family: AF_LINK
+  Address: 00-15-5D-17-EB-DF
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET
+  Address: 172.19.112.1
+  Netmask: 255.255.240.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::5a2b:5a55:a1fc:b87c
+  Netmask: None
+  Broadcast: None
+
+Interface: Tailscale
+  Address Family: AF_INET
+  Address: 100.120.9.32
+  Netmask: 255.255.255.255
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fd7a:115c:a1e0::39f8:920
+  Netmask: None
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::d8ff:5060:f230:9168
+  Netmask: None
+  Broadcast: None
+
+Interface: Local Area Connection 2
+  Address Family: AF_INET
+  Address: 169.254.13.135
+  Netmask: 255.255.0.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::3b2:65ca:7a0a:4605
+  Netmask: None
+  Broadcast: None
+
+Interface: OpenVPN Connect DCO Adapter
+  Address Family: AF_INET
+  Address: 169.254.69.2
+  Netmask: 255.255.0.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: fe80::9a51:405f:3633:4039
+  Netmask: None
+  Broadcast: None
+
+Interface: Loopback Pseudo-Interface 1
+  Address Family: AF_INET
+  Address: 127.0.0.1
+  Netmask: 255.0.0.0
+  Broadcast: None
+
+  Address Family: AF_INET6
+  Address: ::1
+  Netmask: None
+  Broadcast: None
+
